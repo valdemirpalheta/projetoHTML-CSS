@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #752163;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.container{
+    background-color: rgb(187, 185, 185);
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.product-imagem{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url(../css/img/camisa1.jpg);
+}
+
+#img-2{
+    background-image: url(../css/img/camisa.jpg);
+}
+
+#img-3{
+    background-image: url(../css/img/camisalonga1.jpg);
+}
+
+#img-4{
+    background-image: url(../css/img/camisalonga.jpg);
+}
+#img-5{
+    background-image: url(../css/img/camiseta.jpg);
+}
+
+#img-6{
+    background-image: url(../css/img/camiseta1.jpg);
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #1b7513;
+    border-left: 5px solid #fa02c4;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #752163;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #ff2dd2;
+}
+
+footer{
+    background-color: #752163;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+}
